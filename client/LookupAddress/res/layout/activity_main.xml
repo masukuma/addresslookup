@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+     <com.nobledesignlabs.lookupaddress.CustomAutoCompleteTextView
+            android:id="@+id/et_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_action_search_light"
+            android:dropDownWidth="match_parent"
+            android:hint="@string/hint"
+            android:imeOptions="actionSearch"
+            android:lines="1"
+            android:singleLine="true" />
+     
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >       
+
+        
+        
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+        
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/spinner1"
+            android:text="@string/Create" />
+    </RelativeLayout>
+
+</LinearLayout>

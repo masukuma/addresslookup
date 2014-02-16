@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">me@address</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="typeofaddress_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>School</item>
+    </string-array>
+    <string-array name="typeofsecurity_array">
+        <item>Public</item>
+        <item>Private</item>
+    </string-array>
+
+     <string name="hint">Search Map</string>
+      <string name="gcm_error">Error</string>
+    <string name="gcm_error">Error</string>
+    <string name="title_activity_search">Lookup Address</string>
+    <string name="title_activity_update">Create/Update Address</string>
+    <string name="title_activity_authentication">Address Sharing</string>
+    <string name="title_authenticate_web">Google Sign in</string>
+    <string name="Search">Search</string>
+    <string name="Create">Update</string>
+    <string name="Navigate">Plot Path</string>
+    <string name="send">send</string>
+    <string name="clear">clear</string>
+    <string name="title_activity_authorized">Authorized Address</string>
+    <string name="title_activity_authorization_request">Authorization Request</string>
+    <string name="title_activity_splash">Address Sharing</string>
+</resources>
